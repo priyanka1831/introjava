@@ -1,0 +1,27 @@
+package introtojava;
+
+public class Stararrow {
+	public static void main(String[]args){
+		int rows=5;
+		for (int i=0; i<= rows-1 ; i+=2) 
+		{
+			for (int j=rows-1; j>i; j--)
+			{
+				System.out.print(" ");
+			}
+			for (int k=0; k<=i; k++)
+			{
+				System.out.print("*" + " ");
+			}
+			System.out.println();
+		}
+			for(int i=0;i<2;i++)
+			{
+				System.out.println("  * * *  ");
+			}
+				
+	}
+			
+}	
+		
+		
