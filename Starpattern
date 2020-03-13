@@ -1,0 +1,20 @@
+package introtojava;
+
+public class Starpattern {
+	//write the piece of code thread in main  method or main thread
+
+	public static void main(String[] args){
+		//start a loop
+	for(int i=1;i<=5;i++)
+	{
+	for(int j=0;j<i;j++)
+		{
+		System.out.print("*");
+		}
+	System.out.println();
+	
+		}
+	}
+	
+
+}
